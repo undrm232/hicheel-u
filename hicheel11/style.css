@@ -1,0 +1,21 @@
+body{
+    margin: 0%;
+}
+.nav{
+   
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.nav h2{
+   color: black;
+   
+    
+}
+a{
+    text-decoration: none;
+   
+}
+a :hover{
+    color: red;
+}

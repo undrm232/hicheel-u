@@ -1,0 +1,98 @@
+.dasgal1{ 
+    background-color: aqua;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    gap: 5px
+    ;
+}
+.box{ 
+    background-color: yellow;
+    width: 10%;
+    height: 20%;
+}
+.dasgal2{ 
+   background-color: aqua;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 5px
+    ;
+}
+.dasgal3{ 
+    background-color: aqua;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px
+    ;
+}
+.dasgal4{ 
+    background-color: aqua;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: end;
+    
+    gap: 5px
+    ;
+}
+.dasgal5{ 
+    background-color: aqua;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 5px
+    ;
+}
+.dasgal6{ 
+    background-color: aqua;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    
+    gap: 5px
+    ;
+}
+.dasgal7{ 
+    
+    display: flex;
+    flex-direction: row;
+
+   
+}
+.bigbox1{ 
+    background-color: aqua;
+    width: 100%;
+    height: 80vh;
+    flex: 1;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: end;
+
+}
+.bigbox2{ 
+    background-color: pink;
+    width: 100%;
+    height: 80vh;
+    flex: 1;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
