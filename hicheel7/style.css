@@ -145,11 +145,14 @@ border-radius: 10px;
     justify-content: center;
 }
 .img1_2{
-    margin: 5%;
+    margin: 0%;
     background-color: aquamarine;
     height: 17px;
     width: 17px;
-    align-items: start;
+   justify-content: start;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 ._1_3{
     height: 50px;
