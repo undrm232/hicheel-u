@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: larger;
+    font-size: large;
     align-items: center;
    
 }
@@ -29,9 +29,9 @@ body{
     flex-wrap: wrap;
 }
 .youtube{
-    width: 50%;
-    height: 50%;
-  
+    width: 30%;
+    height: 30%;
+  margin-left: 18px;
 }
 
 
@@ -118,9 +118,9 @@ border-radius: 10px;
     color: aliceblue;
   }
  p{
-    background-color: rgb(193, 193, 193);
+    
     color: black;
-    border-radius: 10px;
+   font-size: small;
     padding: 6px;
  }
  #above p:hover{
@@ -135,4 +135,27 @@ border-radius: 10px;
 }
 .signin{
    justify-content: center;
+}
+.search{
+    height: 25px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    justify-content: center;
+}
+.img1_2{
+    margin: 5%;
+    background-color: aquamarine;
+    height: 17px;
+    width: 17px;
+    align-items: start;
+}
+._1_3{
+    height: 50px;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    background-color: rgb(39, 51, 61);
+    justify-content: center;
 }
