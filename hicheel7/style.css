@@ -94,8 +94,7 @@ border-radius: 10px;
 }
 .description2{
     background-color: antiquewhite;
-    height: 60%;
-   width: 60%; 
+   font-size: 11px;
    margin: 5%;
 
 }
@@ -106,7 +105,7 @@ border-radius: 10px;
     padding: 10%;
     height: 5%;
     width: 100%;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 .top {
     font-family: "Roboto", sans-serif;
@@ -114,21 +113,17 @@ border-radius: 10px;
     font-style: normal;
 
   }
-  .top :hover{
-    color: aliceblue;
-  }
- p{
-    
-    color: black;
-   font-size: small;
-    padding: 6px;
- }
+ 
+ 
  #above p:hover{
     background-color: black;
     color: white;
  }
 #p1{
     background-color:white;
+    font-size: 10px;
+    width: 117px;
+    height: 25px;
 }
 #p2{
     color: rgb(68, 68, 213);
@@ -155,10 +150,49 @@ border-radius: 10px;
     flex-wrap: wrap;
 }
 ._1_3{
-    height: 50px;
-    width: 60vw;
+    height: 40px;
+    width: 50vw;
     display: flex;
     align-items: center;
-    background-color: rgb(39, 51, 61);
+    background-color: rgb(233, 233, 233);
     justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#_1_3{
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    background-color: aquamarine;
+    height: 17px;
+    width: 17px;
+    justify-content: left;
+}
+#account{
+    display: flex;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 27px;
+    width: 5wv;
+    font-size: 10px;
+   
+}
+.account{
+    display: flex;
+    align-items: start;
+    border: solid 1px rgb(203, 203, 203);
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 27px;
+    width: 5wv;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+   
+}
+#icon{
+    display: flex;
+    align-items: center;
+    margin: 5px;
 }
