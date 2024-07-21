@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: larger;
+    font-size: large;
     align-items: center;
    
 }
@@ -29,9 +29,9 @@ body{
     flex-wrap: wrap;
 }
 .youtube{
-    width: 50%;
-    height: 50%;
-  
+    width: 30%;
+    height: 30%;
+  margin-left: 18px;
 }
 
 
@@ -94,8 +94,7 @@ border-radius: 10px;
 }
 .description2{
     background-color: antiquewhite;
-    height: 60%;
-   width: 60%; 
+   font-size: 11px;
    margin: 5%;
 
 }
@@ -106,7 +105,7 @@ border-radius: 10px;
     padding: 10%;
     height: 5%;
     width: 100%;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 .top {
     font-family: "Roboto", sans-serif;
@@ -114,25 +113,86 @@ border-radius: 10px;
     font-style: normal;
 
   }
-  .top :hover{
-    color: aliceblue;
-  }
- p{
-    background-color: rgb(193, 193, 193);
-    color: black;
-    border-radius: 10px;
-    padding: 6px;
- }
+ 
+ 
  #above p:hover{
     background-color: black;
     color: white;
  }
 #p1{
     background-color:white;
+    font-size: 10px;
+    width: 117px;
+    height: 25px;
 }
 #p2{
     color: rgb(68, 68, 213);
 }
 .signin{
    justify-content: center;
+}
+.search{
+    height: 25px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    justify-content: center;
+}
+.img1_2{
+    margin: 0%;
+    background-color: aquamarine;
+    height: 17px;
+    width: 17px;
+   justify-content: start;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+._1_3{
+    height: 40px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#_1_3{
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    background-color: aquamarine;
+    height: 17px;
+    width: 17px;
+    justify-content: left;
+}
+#account{
+    display: flex;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 27px;
+    width: 5wv;
+    font-size: 10px;
+   
+}
+.account{
+    display: flex;
+    align-items: start;
+    border: solid 1px rgb(203, 203, 203);
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 27px;
+    width: 5wv;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+   
+}
+#icon{
+    display: flex;
+    align-items: center;
+    margin: 5px;
 }
