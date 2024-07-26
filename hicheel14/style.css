@@ -1,0 +1,44 @@
+.home{
+    background: rgb(217,183,240);
+    background: linear-gradient(90deg, rgba(217,183,240,0.54) 0%, rgba(233,117,117,0.5422619731486344) 50%, rgba(111,204,241,0.54) 100%);;
+    display: flex;
+    justify-content: flex-end;
+    
+    margin: 0;
+    width: 100vw;
+    height: 7vh;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+a :hover{
+    color: black;
+}
+.mynameis{
+    color: rgb(130, 65, 204);
+ 
+}
+#left{
+    display: flex;
+flex-direction: column;
+
+}
+#home{
+   display: flex;
+   position: fixed;
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.contact{
+    color:  rgb(130, 65, 204) ;
+}

@@ -73,9 +73,9 @@
     .img1{
         margin: 5%;
       background-color: brown;
-       height: 60%;
-       width: 90%;
-    border-radius: 10px;
+       height: 80%;
+       width: 100%;
+    border-radius: 20px;
     }
     .img1_1{
         margin: 0%;
@@ -95,7 +95,7 @@
         justify-content: center;
     }
     .description2{
-        background-color: rgb(255, 255, 255);
+      
        font-size: 11px;
        margin: 5%;
     
@@ -236,9 +236,12 @@
         margin-left: 7px;
         
     
-    } 
-    #icon :hover{
-        background-color: rgb(204, 204, 204);
+    }
+    #icon1 :hover{
+        background-color: rgb(233, 233, 233);
+        border-radius: 20px;
+        width: 100%;
+        
     }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -319,8 +322,8 @@
     .img1{
         margin: 5%;
       background-color: rgb(114, 38, 38);
-       height: 60%;
-       width: 90%;
+       height: 90%;
+       width: 100%;
     border-radius: 10px;
     }
     .img1_1{

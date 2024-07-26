@@ -1,0 +1,12 @@
+section{
+  position: relative;
+}
+#image2{
+
+
+}
+#image1{
+  position: absolute;
+  top: 22%;
+  opacity: .5;
+}
