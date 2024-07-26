@@ -213,6 +213,9 @@
         margin: 5px;
        
     }
+    .hidden :hover{
+        background-color: rgb(234, 234, 234);
+    }
     .img1_5{
         margin: 0%;
         color:rgb(0, 0, 0);
@@ -489,7 +492,7 @@
         
     
     } 
-    #icon :hover{
+    .hidden :hover{
         background-color: rgb(203, 203, 203);
     }
     .hidden {
