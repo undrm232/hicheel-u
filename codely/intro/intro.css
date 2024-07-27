@@ -5,7 +5,7 @@
 .intro {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: end;  
 }
 h1 {
   color:  rgba(111,204,241,0.54) 100%;

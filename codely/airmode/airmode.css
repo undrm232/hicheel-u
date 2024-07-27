@@ -1,12 +1,17 @@
-section{
-  position: relative;
-}
-#image2{
+section {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
 
-
 }
-#image1{
+#image1,
+#image2 {
+  margin: 0;
+}
+#image1 {
   position: absolute;
   top: 22%;
-  opacity: .5;
+  opacity: 0.5;
 }

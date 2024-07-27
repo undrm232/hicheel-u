@@ -3,12 +3,12 @@
 
 
 // init h1 with airMode
-const h1 = new Cotton('#image1', {
+const h1 = new Cotton('#image2', {
   airMode: true
 })
 
 // init h2 with airMode reverse
-const h2 = new Cotton('#image2', {
+const h2 = new Cotton('#image1', {
   airMode: {
     reverse: true
   }

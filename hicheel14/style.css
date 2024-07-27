@@ -2,8 +2,7 @@
     background: rgb(217,183,240);
     background: linear-gradient(90deg, rgba(217,183,240,0.54) 0%, rgba(233,117,117,0.5422619731486344) 50%, rgba(111,204,241,0.54) 100%);;
     display: flex;
-    justify-content: flex-end;
-    
+    position: fixed;
     margin: 0;
     width: 100vw;
     height: 7vh;
@@ -25,20 +24,82 @@ a :hover{
 #left{
     display: flex;
 flex-direction: column;
+align-items: end;
+height: 600px;
+justify-content: center;
 
 }
 #home{
    display: flex;
-   position: fixed;
+
 }
 .top{
     display: flex;
-    align-items: center;
     gap: 10px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
+   
+    font-weight: 600;
+   
+    font-size: 30px;
 }
-.contact{
-    color:  rgb(130, 65, 204) ;
+.hvr-shutter-out-horizontal {
+    color: rgb(130, 65, 204) ;
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    border: solid  rgb(130, 65, 204) 1px;
+   
+}
+.me{
+    border-bottom: solid  rgb(130, 65, 204) 3px ;
+    margin: 30px;
+}
+#me{
+    
+    font-weight: 600;
+   
+    font-size: 20px;
+    margin: 10px;
+}
+
+.me :hover{
+    color:  rgb(130, 65, 204)
+    
+}
+.codely{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+#end{
+    display: flex;
+  justify-content: end;
+    
+}
+#girl1{
+    margin-left: 100px;
+}
+.about-me{
+    display: flex;
+   
+}
+#right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills{
+    border-bottom: solid  rgb(130, 65, 204) 3px ;
+    margin: 30px;
+}
+.skills :hover{
+    color:  rgb(130, 65, 204)
+}
+#skills{
+    display: flex;
+    justify-content: space-around;
+}
+#skill-card{
+    width: 140px;
+    height: 160px;
+    border: 1px solid #11C86D;
 }
