@@ -5,7 +5,7 @@
     position: fixed;
     margin: 0;
     width: 100vw;
-    height: 7vh;
+    height: 53px;
     align-items: center;
 }
 a{
@@ -29,7 +29,7 @@ height: 600px;
 justify-content: center;
 
 }
-#home{
+#home1{
    display: flex;
 
 }
@@ -61,20 +61,10 @@ justify-content: center;
     margin: 10px;
 }
 
-.me :hover{
-    color:  rgb(130, 65, 204)
-    
+h2 :hover{
+    color:  rgb(217,183,240);
 }
-.codely{
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 10px;
-}
-#end{
-    display: flex;
-  justify-content: end;
-    
-}
+
 #girl1{
     margin-left: 100px;
 }
@@ -87,13 +77,8 @@ justify-content: center;
     justify-content: center;
     align-items: center;
 }
-.skills{
-    border-bottom: solid  rgb(130, 65, 204) 3px ;
-    margin: 30px;
-}
-.skills :hover{
-    color:  rgb(130, 65, 204)
-}
+
+
 #skills{
     display: flex;
     justify-content: space-around;
@@ -101,5 +86,82 @@ justify-content: center;
 #skill-card{
     width: 140px;
     height: 160px;
-    border: 1px solid #11C86D;
+    border: 1px solid  rgb(130, 65, 204);
+}
+nav a{
+    padding: 10px 10px;
+}
+nav{
+    display: flex;
+}
+.name{
+    color: rgb(130, 65, 204);
+    font-size: 45px;
+    font-weight: 600;
+    display: flex;
+}
+.name p {
+    color: #333;
+    margin: 0;
+    margin-left: 20px;
+}
+
+hr{
+    height:2px;
+    border-width:0;
+    background: rgb(217,183,240);
+    background: linear-gradient(90deg, rgba(217,183,240,0.54) 0%, rgba(233,117,117,0.5422619731486344) 50%, rgba(111,204,241,0.54) 100%);;
+   
+    margin-bottom: 30px;
+}
+
+.introduction {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    justify-content: space-around;
+}
+.hello1{
+    font-weight: 600;
+    font-size: 20px;
+}
+.hello-container{
+    width: 400px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+.skill-card{
+    width: 140px;
+    height: 160px;
+    border: 1px solid rgb(217,183,240);
+}
+.skill-header{
+    padding: 10px 0;
+    border-bottom: 1px solid  rgb(217,183,240);
+    text-align: center;
+    font-weight: 600;
+}
+.skill-details {
+    list-style-type: none;
+    padding: 10px;
+}
+.hobby-img{
+    height: 400px;
+    width: 400px;
+}
+.hobby-header{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hobby-container{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hobby-desc{
+    width: 30vw;
 }
