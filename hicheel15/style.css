@@ -1,0 +1,149 @@
+header{
+    background-color: black;
+    height: 80px;
+    width: 100vw;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  ;
+}
+.abstract:hover {
+    color: rgb(195, 195, 195);
+}
+.abstract{
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    margin: 7px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+}
+.helpcenter{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+border-left:  solid white 1px ;
+}
+.helpcenter:hover {
+   text-decoration-line: underline;
+}
+.submit{
+    text-decoration: none;
+    border: solid white 1px;
+    border-radius: 7px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    margin: 7px;
+padding: 5px 15px;
+}
+.signin{
+    background-color: #4c5fd5;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+margin: 7px;
+padding: 5px 10px;
+}
+.signin:hover {
+    background-color: white;
+    color: black;
+}
+#abstract{
+    height: 30px;
+    width: 30px;
+}
+.top{
+  
+    background-color: #dadbf1;
+    margin: 0%;
+    height: 360px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+align-items: center;
+    flex-direction: column;
+  
+}
+.how{
+ 
+
+    height: 100%;
+    width: 100%;
+}
+#search{
+    color: black;
+    height: 20px;
+    width: 20px;
+}
+.search{
+   border: solid black 1px;
+
+    height: 55px;
+    width: 630px;
+    border-radius: 3px;
+}
+.search:hover{
+     border: solid #4c5fd5 1px;
+}
+#searchtext{
+    color: #9698b8;
+    background-color: white;
+    height: 100%;
+border-radius: 3px;
+padding-left: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-right: 15px;
+}
+body{
+    margin: 0;
+}
+p{
+    font-size: 60px;
+    margin: 30px;
+    font-weight: 549;
+}
+.bottom{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 100px;
+    font-size: larger;
+}
+#textheader{
+    font-weight: 550;
+}
+.text{
+   padding: 15px;
+}
+#learn{
+    color: #4c5fd5;
+    text-decoration: none;
+}
+#learn:hover{
+    text-decoration: underline;
+}
+._1{
+    height: auto;
+    width: 40%;
+    display: flex;
+}
+#icon{
+    height: 30%;
+}
+._2{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+footer{
+    background-color: black;
+}
